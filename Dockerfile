@@ -1,6 +1,5 @@
 FROM python:3.8
 ENV PYTHONUNBUFFERED 1
-RUN mkdrir -p /app
 WORKDIR /app
 COPY requirements.txt /app/requirements.txt
 RUN pip install -r requirements.txt
