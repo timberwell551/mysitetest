@@ -1,0 +1,11 @@
+---
+application:
+  name: "mysitetest"
+  project: "mywebsitedj"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-mysitetest"
+  routes:
+  - application_name: "mysitetest"
+    paths:
+    - "/*"
